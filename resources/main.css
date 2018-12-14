@@ -3,7 +3,7 @@
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.95; /*made it a little easier to see */
   text-align: center;
 }
 
@@ -50,14 +50,114 @@ a {
 .splash {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   padding-top: 69px;
-  margin: auto 40px;
   height: 700px;
   width: 1200px;
-  display: flex;
+  display: inline-flex;
+  flex: 1 2;
   align-content: center;
   align-items: center;
 }
 
 .splash-headline {
   width: 1200px;
+}
+
+.sec-feat {
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 15px;
+  flex: 1 2;
+}
+
+.featured {
+  padding-bottom: 75px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+  flex: 1 2 1200px;
+}
+
+.flex-box {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.box {
+  padding: 0px 15px;
+
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+}
+
+.box h4 {
+  padding: 10px;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  display: inline-flex;
+  flex: 1 2;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+
+.sec-loc {
+  background-color: transparent;
+}
+
+.sec-loc h2 {
+  width: 1200px;
+  text-align: center;
+  background-color: transparent;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.flex-loc {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  background-color: transparent;
+}
+
+.loc {
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: black;
+}
+
+.loc h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.loc p {
+  padding: 5px;
+}
+
+
+.cr {
+  display: flex;
+  padding: 10px;
 }
